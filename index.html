@@ -1,0 +1,218 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+</head>
+<body>
+    <header>
+<nav>
+    <label for="Text" class="companyname">UNKNOWN SOFTWARES</label>
+    
+    <ul>
+        <li><a href="#"><i class="fa-solid fa-house" style="color: #eceff3;"></i>&nbsp;Home</a>
+            <ul>
+                <li><a href="#">Homet 1</a></li>
+                <li><a href="#">Homet 2</a></li>
+                <li><a href="#">Homet 3</a></li>
+            </ul></li>
+        <li><a href="#"><i class="fa-solid fa-address-card" style="color: #eeeff2;"></i>&nbsp;About</a>
+        <ul>
+            <li><a href="#">about 1</a></li>
+            <li><a href="#">about 2</a></li>
+            <li><a href="#">about 3</a></li>
+        </ul>
+        </li>
+        <li><a href="#"><i class="fa-brands fa-aws" style="color: #f6f7f9;"></i>&nbsp;Services</a>
+            <ul>
+                <li><a href="#">Services 1</a></li>
+                <li><a href="#">Services 2</a></li>
+                <li><a href="#">Services 3</a></li>
+            </ul>
+        </li>
+        <li><a href="#"><i class="fa-solid fa-phone-volume" style="color: #eeeff2;"></i>&nbsp;Contact</a>
+            <ul>
+                <li><a href="#">Contact 1</a></li>
+                <li><a href="#">Contact 2</a></li>
+                <li><a href="#">Contact 3</a></li>
+            </ul>
+        </li>
+        <li><a href="#"><i class="fa-solid fa-address-book" style="color: #eaecf0;"></i>&nbsp;Address</a>
+            <ul>
+                <li><a href="#">Address 1</a></li>
+                <li><a href="#">Address 2</a></li>
+                <li><a href="#">Address 3</a></li>
+            </ul>
+        </li>
+
+<button type="button">Submit</button>
+    </ul>
+     
+</nav>
+
+<div class="about">
+    <h2><b><u>About Our Company</u></b></h2><br>
+    <p><b></b>Out company is responsible for developing and maintaining software applications. Wey work with clients to understand their needs and then create custom solutions. Our company will also provide ongoing support and maintenance for the software they create. The role of a our company is evolved significantly over the past few years as technology has become increasingly complex and sophisticated. Nowadays, most companies work with Agile methodology, which means they are constantly updating their products in response to customer feedback. This makes the work of a our company both challenging and rewarding.</p>
+     
+<button class="vd">View Details</button>
+</div>
+
+
+<div class="cli">
+    <!-- image one -->
+</div>
+
+<div class="img1">
+<img src="education.jpg" alt="" height="100px" width="150px">
+</div>
+
+
+<br>
+
+
+    <hr><hr>
+     <marquee behavior="" direction="" style="color: rgb(206, 231, 65); font-size: medium;">UNKNOWN Software company..
+        6th Floor, Siri Estates, Kallu Compound Rd · 096406 48777
+        Closed - Weekends ⋅ Opens - Mon to Fri 8AM - 10PM</marquee>
+
+<hr><hr>
+
+
+    </header>
+
+</body>
+</html>
+
+
+<style>
+
+  *{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    background-image: url(header.jpg);
+    height: 600px;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.companyname{
+    color: rgb(216, 50, 50);
+    cursor: pointer;
+    font-size: 35px;
+    margin-left: 20px;
+    margin-top: 30px;
+
+}
+
+li a{
+  text-decoration: none; 
+  color: white; 
+}
+
+ul{
+    float: right;
+    /* line-height: 60px; */
+    
+}
+
+li{
+    display: inline-block;
+    margin-right: 20px;
+    width: 80px;
+    bottom: 5px;
+    
+}
+
+button{
+    margin-right: 20px;
+    border: 2px solid rgb(202, 47, 47);
+    background-color: rgb(173, 173, 240);
+    padding: 8px;
+    border-radius: 10px;
+    font-size: medium;
+    margin-top: 5px;
+    
+}
+
+.about{
+    color: white;
+    margin-left: 20px;
+    margin-top: 150px;
+    width: 500px;
+    
+
+}
+
+h2{
+    color: yellow;
+}
+
+.cli{
+    background-image: url(nano\ logo.jpg);
+    height: 200px;
+    width: 250px;
+    background-size: 100% 100%;
+   position: absolute;
+   right: 0;
+   margin-right: 80px;
+   top: 180px;
+   border: 5px groove red;
+}
+
+.img1{
+    position: absolute;
+    right: 0;
+   margin-right: 200px;
+   top: 310px;
+   border: 3px solid black;
+   
+}
+
+.vd{
+    border: 3px solid white;
+    background-color: rgb(21, 206, 21);
+    color: rgb(14, 13, 13);
+    border-radius: 30px;
+    padding: 9px;
+    margin-top: 20px;
+}
+
+h2::first-letter{
+    color: red;
+    font-size: 50px;
+}
+
+nav ul li{
+    display: inline-block;
+    position: relative;
+
+}
+
+nav ul li ul{
+    position: absolute;
+    display: none;
+}
+
+
+nav ul li:hover ul{
+    display: block;
+    background-color: rgb(69, 193, 209);
+    color: rgb(227, 236, 227);
+   
+}
+
+p::first-line{
+    color: rgb(0, 255, 106);
+}
+  
+</style>
